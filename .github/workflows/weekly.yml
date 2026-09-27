@@ -3,7 +3,7 @@ name: Weekly report
 on:
   schedule:
     - cron: "0 13 * * 1"   # Mondays 13:00 UTC, which is 9:00 in Boston during daylight time
-    - cron: "*/5 * * * *"  # SPIKE ONLY: every five minutes, to see the schedule fire
+    - cron: "17 * * * *"   # SPIKE ONLY: hourly at :17, off the top-of-hour peak
   workflow_dispatch:
 
 permissions:
